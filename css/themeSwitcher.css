@@ -1,0 +1,50 @@
+.container {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  z-index: 100;  
+}
+
+.switcher {
+  position: relative;
+  width: 7rem;
+  height: 3.5rem;
+  padding: 0 0.5rem;
+  background: #000;
+
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+
+  border-radius: 59px;
+
+  cursor: pointer;
+
+  -webkit-box-shadow: 0px 1px 5px 0px #633bbc;
+  -moz-box-shadow: 0px 1px 5px 0px #633bbc;
+  box-shadow: 0px 1px 5px 0px #633bbc;
+}
+
+.switcher > img {
+  width: 2.5rem;
+  height: 2.5rem;
+}
+
+.switcher > .ball {
+  position: absolute;
+  left: 6%;
+  transform: translateX(-6%);
+  width: 2.5rem;
+  height: 2.5rem;
+  background: #FFF;
+
+  border-radius: 100%;
+
+  transition: 0.3s;
+}
+
+.switcher > .ball.active {
+  left: 94%;
+  transform: translateX(-94%);
+}

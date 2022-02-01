@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <!-- Fonts Google -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;500;600;700;800&display=swap"
+    rel="stylesheet">
+  <!-- Estilização -->
+  <link rel="stylesheet" href="./css/styles.css">
+  <link rel="stylesheet" href="./css/responsive.css">
+  <link rel="stylesheet" href="./css/themeSwitcher.css">
+  <title>Studio Maker - Um projeto de extensão tecnológica</title>
+</head>
+
+<body>
+  <header class="header">
+    <nav class="nav">
+      <h1 class="logo">Studio Maker</h1>
+      <div class="actions">
+        <ul class="menu">
+          <li class="itens"><a class="item" href="#home">Home</a></li>
+          <li class="itens"><a class="item" href="#robotics">Robótica</a></li>
+          <li class="itens"><a class="item" href="#about">Sobre</a></li>
+          <li class="itens">
+            <a class="item" href="#signUp">
+              <button class="signUp">Inscreva-se</button>
+            </a>
+          </li>
+        </ul>
+        <div class="switcher">
+          <img src="./assets/moon.svg" alt="">
+          <img src="./assets/sun.svg" alt="">
+          <div class="ball"></div>
+        </div>
+      </div>
+    </nav>
+  </header>
+
+  <main class="main">
+
+    <section class="primarySection section">
+      <div class="text">
+        <h2 class="title">Studio <br> Maker</h2>
+        <p class="text">O Movimento Maker associa-se à Robótica Educacional no sentido de oferecer uma valorosa
+          contribuição ao
+          processo educativo. Explorando a capacidade imaginativa, o trabalho em grupo em um ambiente colaborativo e a
+          possibilidade de inovação, elementos essenciais à robótica.</p>
+        <button class="signUp">Inscreva-se</button>
+      </div>
+      <div class="image">
+        <img src="./assets/robot.svg" alt="">
+      </div>
+    </section>
+
+    <section id="robotics" class="secondarySection section">
+      <div class="text">
+        <h3 class="title">Robótica <br> Educacional</h3>
+        <p class="text">A robótica educacional precisa ser compreendida como uma estratégia metodológica de ensino que
+          possibilita a
+          aprendizagem através da criação de dispositivos autômatos. Esses engenhos tecnológicos, na verdade, exercem a
+          função de artefatos cognitivos, que os estudantes farão uso para demonstrar suas ideias, ou “um
+          objeto-para-pensar-com”, nas palavras de Papert (1986).</p>
+      </div>
+      <div class="image">
+        <img src="./assets/manInMoon.svg" alt="">
+      </div>
+    </section>
+
+    <section id="about" class="thirdSection section">
+      <div class="text">
+        <h3 class="title">Sobre o <br> Projeto</h3>
+        <p class="text">O projeto visa promover, com base nos princípios da cultura Maker, o ensino de robótica com o
+          uso da
+          modelagem, prototipagem e programação, por meio de atividades práticas e lúdicas através de ferramentas como:
+          Arduino, sensores, impressão 3D, sucatas e outros materiais didáticos, podendo assim despertar o interesse dos
+          alunos do último ano do ensino fundamental dos municípios do entorno de Governador Mangabeira, estimulando
+          assim o interesse desses estudantes pela ciências e tecnologias.</p>
+      </div>
+      <div class="image">
+        <img src="./assets/rocket.svg" alt="">
+      </div>
+    </section>
+
+    <section id="signUp" class="fourthSection section">
+      <!-- Form -->
+    </section>
+  </main>
+
+  <footer class="footer">
+    <h4 class="copyRight">Robson Carvalho &copy; 2022</h4>
+  </footer>
+  <script src="./js/themeSwitcher.js"></script>
+</body>
+
+</html>
