@@ -60,4 +60,19 @@
   .header > .nav > .buttons {
     z-index: 50;
   }
+
+  .main > .primarySection > .text > .title {
+    font-size: 5.4rem;
+  }
+
+  .main > .secondarySection > .text > .title,
+  .main > .thirdSection > .text > .title {
+    font-size: 1.4;
+  }
+
+  .main > .primarySection > .text > .text,
+  .main > .secondarySection > .text > .text,
+  .main > .thirdSection > .text > .text {
+    font-size: 1.6rem;
+  }
 }
