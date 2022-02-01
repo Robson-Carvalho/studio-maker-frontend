@@ -216,6 +216,10 @@ body {
   -webkit-text-fill-color: transparent;
 }
 
+.main > .thirdSection > .text > .title {
+  line-height: 5.6rem;
+}
+
 .main > .primarySection > .text > .text,
 .main > .secondarySection > .text > .text,
 .main > .thirdSection > .text > .text {
