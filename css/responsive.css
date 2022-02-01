@@ -7,3 +7,57 @@
     width: 80%;
   }
 }
+
+@media (max-width: 850px) {
+  body {
+    overflow-x: hidden;
+  }
+  .header > .nav > .logo {
+    font-size: 2rem;
+  }
+
+  .header > .nav > .buttons {
+    display: flex;
+    align-items: center;
+    gap: 5rem;
+  }
+
+  .header > .nav > .buttons > .mobileMenu {
+    display: block;
+  }
+
+  .header > .nav > .actions {
+    width: 100vw;
+    min-height: 100vh;
+    position: absolute;
+    top: 0;
+    left: 0;
+    transform: translate(-100%, 0%);
+    background-color: #633bbc;
+
+    z-index: 25;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    transition: 0.5s;
+  }
+
+  .header > .nav > .actions.active {
+    transform: translate(-0%, 0%);
+  }
+
+  .header > .nav > .actions > .menu {
+    flex-direction: column;
+    gap: 10rem;
+  }
+
+  .header > .nav > .actions > .menu > .itens > .item > .signUp {
+    background-color: #8257e5;
+  }
+
+  .header > .nav > .buttons {
+    z-index: 50;
+  }
+}

@@ -12,15 +12,17 @@
     rel="stylesheet">
   <!-- Estilização -->
   <link rel="stylesheet" href="./css/styles.css">
-  <link rel="stylesheet" href="./css/responsive.css">
   <link rel="stylesheet" href="./css/themeSwitcher.css">
+  <link rel="stylesheet" href="./css/responsive.css">
   <title>Studio Maker - Um projeto de extensão tecnológica</title>
 </head>
 
 <body>
   <header class="header">
     <nav class="nav">
+
       <h1 class="logo">Studio Maker</h1>
+
       <div class="actions">
         <ul class="menu">
           <li class="itens"><a class="item" href="#home">Home</a></li>
@@ -32,12 +34,24 @@
             </a>
           </li>
         </ul>
+      </div>
+
+      <div class="buttons">
+
         <div class="switcher">
           <img src="./assets/moon.svg" alt="">
           <img src="./assets/sun.svg" alt="">
           <div class="ball"></div>
         </div>
+
+        <div class="mobileMenu">
+          <div class="line"></div>
+          <div class="line"></div>
+          <div class="line"></div>
+        </div>
+
       </div>
+
     </nav>
   </header>
 
@@ -95,6 +109,7 @@
     <h4 class="copyRight">Robson Carvalho &copy; 2022</h4>
   </footer>
   <script src="./js/themeSwitcher.js"></script>
+  <script src="./js/mobileMenu.js"></script>
 </body>
 
 </html>
