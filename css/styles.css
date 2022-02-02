@@ -234,9 +234,12 @@ body {
   color: var(--subtile-color);
 }
 
+.main > .fourthSection > .text > .title {
+  margin: 0rem 0;
+}
 
 .register {
-  margin-top: 5rem;
+  margin-top: 4rem;
 }
 
 .footer {
