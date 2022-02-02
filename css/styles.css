@@ -176,7 +176,7 @@ body {
   -webkit-text-fill-color: transparent;
 }
 
-.main > .primarySection > .text > .signUp {
+.main > .primarySection > .text > a > .signUp {
   font-weight: 600;
   font-size: 1.7rem;
 
@@ -203,7 +203,8 @@ body {
 }
 
 .main > .secondarySection > .text > .title,
-.main > .thirdSection > .text > .title {
+.main > .thirdSection > .text > .title,
+.main > .fourthSection > .text > .title {
   font-weight: 700;
   font-size: 4.8rem;
 
@@ -216,19 +217,26 @@ body {
   -webkit-text-fill-color: transparent;
 }
 
+
 .main > .thirdSection > .text > .title {
   line-height: 5.6rem;
 }
 
 .main > .primarySection > .text > .text,
 .main > .secondarySection > .text > .text,
-.main > .thirdSection > .text > .text {
+.main > .thirdSection > .text > .text,
+.main > .fourthSection > .text > .text {
   font-weight: 500;
   font-size: 1.8rem;
 
   text-align: justify;
 
   color: var(--subtile-color);
+}
+
+
+.register {
+  margin-top: 5rem;
 }
 
 .footer {

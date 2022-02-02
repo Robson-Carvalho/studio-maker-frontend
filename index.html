@@ -14,6 +14,7 @@
   <link rel="stylesheet" href="./css/styles.css">
   <link rel="stylesheet" href="./css/themeSwitcher.css">
   <link rel="stylesheet" href="./css/responsive.css">
+  <link rel="stylesheet" href="./css/form.css">
   <title>Studio Maker - Um projeto de extensão tecnológica</title>
 </head>
 
@@ -64,7 +65,9 @@
           contribuição ao
           processo educativo. Explorando a capacidade imaginativa, o trabalho em grupo em um ambiente colaborativo e a
           possibilidade de inovação, elementos essenciais à robótica.</p>
-        <button class="signUp">Inscreva-se</button>
+        <a href="#signUp">
+          <button class="signUp">Inscreva-se</button>
+        </a>
       </div>
       <div class="image">
         <img src="./assets/robot.svg" alt="">
@@ -101,7 +104,43 @@
     </section>
 
     <section id="signUp" class="fourthSection section">
-      <!-- Form -->
+      <div class="text">
+        <h3 class="title">Inscrição</h3>
+        <p class="text">Área de inscrição, certifique-se que os dados fornecidos estejam corretos para garantir a integridade de sua inscrição</p>
+      </div>
+      <div class="register">
+        <form class="form" name="register">
+          <div class="groupInput">
+            <input class="input" type="text" id="name" name="name" placeholder="Nome completo" required>
+          </div>
+
+          <div class="groupInput">
+            <input class="input" type="text" id=" responsibleName" name="responsibleName"
+              placeholder="Nome do responsável" required>
+          </div>
+
+          <div class="groupInput">
+            <input class="input" type="email" id="email" name="email" placeholder="Ex: aluno2022@gmail" required>
+          </div>
+
+          <div class="groupInput">
+            <input class="input" type="text" id="school" name="school" placeholder="Nome da escola" required>
+          </div>
+
+          <div class="groupSelect">
+            <label class="label" for="series">Está cursando o 9° ano atualmente?</label>
+            <select class="select" name="series" id="series" required>
+              <option value="" disabled selected>Selecione</option>
+              <option value="Sim">Sim</option>
+              <option value="Não">Não</option>
+            </select>
+          </div>
+
+          <div class="action">
+            <button class="buttonSubmit" type="submit">Inscreva-se</button>
+          </div>
+        </form>
+      </div>
     </section>
   </main>
 
